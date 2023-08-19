@@ -1,23 +1,8 @@
-/*
- * <div id="header">
- *  <div id="parent">
-        <div id="child">
-        <h1> Hello world from React </h1>
-        <h2> Hello shubhi, start learning react! </h2>
-        </div>
-        <div id="child1">
-        <h1> Hello world from React </h1>
-        <h2> Hello shubhi, start learning react! </h2>
-        </div>
-    </div>
-
-    </div>
-  
- */
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
     const heading = React.createElement("div", {id: "parent"}, [React.createElement("div", {id: "child"},
-    [React.createElement("h1", {}, "Hello world from React!"), 
+    [React.createElement("h1", {}, "Hello India  from React!"), 
     React.createElement("h2", {}, "Hello shubhi, start learning react!") ]
     ),
     React.createElement("div", {id: "child1"},
